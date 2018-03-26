@@ -8,6 +8,8 @@
         <meta name = "author" content = "Dominic Dorhat | Choo Wei Ken | Choong Jiachenn | Hariz Tay | Lim Kai Wey">
         <title>Insert Name | Home Page</title>
         <link rel = "stylesheet" href = "./css/style.css">
+        <link rel="stylesheet" href="./css/slider.css">
+        <link rel="stylesheet" href="./css/home.css">
     </head>
 
     <body>
@@ -34,7 +36,7 @@
                         <form class = "search">             
                             <div class = "search-box">
                                 <input id = "search-bar" type = "search" placeholder=" ...">
-                                <button id = "search-btn" class = "waves-effect" type="submit"><img src = "./img/ic_search_black_24dp_1x.png"></button>                            
+                                <button id = "search-btn" type="submit"><img src = "./img/ic_search_black_24dp_1x.png"></button>                            
                                 <a href = "cart.html" id = "cart"><img src="./img/shopping_cart.png">(0)</a>
 
                             </div>
@@ -58,6 +60,61 @@
         </header>
 
         <main>
+            <section id = "showcase">
+            <div class="slider-holder">
+                <span id="slider-image-1"></span>
+                <span id="slider-image-2"></span>
+                <span id="slider-image-3"></span>
+                    <div class="image-holder">
+                        <img src="./img/1.png" class="slider-image" />                        
+                        <img src="./img/2.jpg" class="slider-image" />
+                        <img src="./img/3.jpg" class="slider-image" />
+                    </div>
+                    <div class="button-holder">
+                        <a href="#slider-image-1" class="slider-change"></a>
+                        <a href="#slider-image-2" class="slider-change"></a>
+                        <!-- <a href="#slider-image-3" class="slider-change"></a> -->
+                    </div>
+            </div>    
+            
+            
+            <div class = "container">
+                <div id = "caption">
+                    <h3>"Spring Collection" - 2018</h3>
+                    <a href="product-page.html" class = "btn1">View Now</a>
+                </div>             
+                <!-- <h1>hentai</h1>    -->
+            </div>
+            </section>
+
+            <section class = "boxes">
+                <div class = "container">
+                    <h1>Popular Brands</h1>
+                    <div id = "logo-list">
+                        <img src = "./img/adidas.png">
+                        <img src = "./img/nike-swoosh.png">
+                        <img src = "./img/adidas-ori.png">
+                        <img src = "./img/nb.jpg">
+                        <img src = "./img/onitsuka.png">
+                        <img src = "./img/timberland.png">
+                        <img src = "./img/champion.png">
+                        <img src = "./img/puma.jpg">
+                    </div>
+                </div>
+            </section>
+
+            <section class = "boxes">
+                <div class = "container">
+                    <h1>Sale</h1>
+                </div>
+            </section>
+            
+            <section class = "boxes">
+                <div class = "conttainer">
+                    <img src = "./img/nike_sportwear.jpg" id = "btm-ad">
+                </div>
+
+            </section>
 
         </main>
        

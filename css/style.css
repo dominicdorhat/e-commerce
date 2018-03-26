@@ -32,8 +32,8 @@ header {
     background: #455A64;
     color:#FFFF;
     margin: 0;
+    width: 100vw;
 
-    /* min-height: 70px; */
 }
 
 header a {    
@@ -140,7 +140,6 @@ header ul {
 #cart {
     background-color: #7C4DFF;
     color: #FFFF;
-    /* border-style: none; */
     height: 40px;
     width: 60px;
     margin-left: 20px;
@@ -188,6 +187,7 @@ header ul {
     background-color: #455A64;
     color: #FFFF;
     font-size: 13px;
+    width: 100vw;
 
 }
 
