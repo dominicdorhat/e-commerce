@@ -60,9 +60,18 @@ a.btn1:hover {
 }
 
 #btm-ad {
-    /* width: auto; */
     height: auto;
-    /* height: 100vh; */
      width: 100vw; 
 
+}
+
+/* sale-list */
+#sale-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#sale-list img {
+    margin: auto;
+    /* width: auto; */
 }
