@@ -42,7 +42,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
     
 }
 
@@ -53,15 +55,9 @@
     border-radius: 15px;
     width: auto;
     height: 350px; 
-    /* float: left; */
-
     display: inline-block;
     margin: auto;
     margin-bottom: 20px;
-
-    /* margin: 20px;
-    margin-top: 40px; */
-    
 }
 
 .card-container-h {
@@ -87,14 +83,32 @@
     height: 100%
 }
 
+#product-box {
+    display: flex;
+}
+
+#left-bar {
+    height: 100%;
+    width: 25%;
+    position: relative;
+}
+
+
+#right-bar {
+    width: 85%;
+}
+
 .sidebar {
     background-color:white ;
-    width: 150px;
+    width: 180px;
     height: 100%;
     float: left;
     overflow: hidden;
-    margin: 0px;
-    padding: 0px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding: 0px;    
 }
 
 .sidebar a {
@@ -130,5 +144,5 @@
 
 .product-title {
     text-align:center;
-    display: inline;
+    margin-top: 40px;
 }

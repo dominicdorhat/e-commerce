@@ -257,3 +257,15 @@ header ul {
     
 }
 
+.maxWidth {
+    padding: 20px 30px 20px 30px;
+    font-size: 13px;
+}
+
+#cursive {
+    font-family: 'Indie Flower', cursive;
+}
+
+#bold {
+    font-weight: 700;
+}
