@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: lightsteelblue;
+    padding: 60px;
+}
+
+.team-section h1 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
