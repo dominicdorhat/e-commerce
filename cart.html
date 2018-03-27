@@ -10,6 +10,7 @@
     <title>002 Station | Cart</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Karla|Roboto|Roboto+Mono" rel="stylesheet">
 
@@ -44,7 +45,7 @@
                         <button id="search-btn" type="submit">
                             <img src="./img/ic_search_black_24dp_1x.png">
                         </button>
-                         <a href="cart.html" id="cart"><img src="./img/shopping_cart.png">(3)</a>
+                         <a href="cart.html" id="cart"><img src="./img/shopping_cart.png">(4)</a>
 
                     </div>
 
@@ -76,51 +77,61 @@
     </header>
 
     <main>
-        <div class = "page-title">
-            <h2>Your Cart</h2>
+        <div class="maxWidth">Home >
+            <span= id="bold"> Cart</span>   
         </div>
-     
-        <div class = "cart-category">
-            <div class="card-container">
-                <div class="card-img">
-                    <img src="./img/nb_smt.jpeg" alt="New Balance SMT">
-                </div>
-                <div class="details-container">
-                    <h4 class="card-details">New Balance SMT | Men</h4><br><br>
-                    <div class ="card-price">
-                        <div class = "final-price">RM400.00 MYR</div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="card-img">
-                    <img src="./img/adidas_ap.jpg" alt="Adidas Alphabounce">
-                </div>
-                <div class="details-container">
-                    <h4 class="card-details">Adidas Alphabounce | Men</h4><br>
-                    <div class="card-price">
-                        <div class="final-price">RM329.00 MYR</div>
-                    </div>                                       
-                </div>
-            </div>
+        <hr class="line-long">
 
-            <div class="card-container">
-                <div class="card-img">
-                    <img src="./img/champion_hoodie.jpg" alt="hoodie">
-                </div>
-                <div class="details-container">
-                    <h4 class="card-details">Champion Hoodie | Unisex</h4><br>
-                    <div class ="card-price">
-                        <div class = "normal-price">RM350.00 MYR</div>
+        <section>
+            <div class = "container">
+                <div class = "cart">
+                    <h3>Your Cart</h3>
+                    <hr class="line-medium">
+                    <div class = "cart-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>PRODUCT</th>                            
+                                <th>QUANTITY</th>
+                                <th>PRICE</th>
+                                <th>SUBTOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Adidas NBHD | Men | UK7</td>
+                                <td>1</td>
+                                <td>RM 899.00</td>
+                                <td>RM 899.00</td>
+                            </tr>
+                            <tr>
+                                <td>Nike Flyknit | Men | UK10</td>
+                                <td>2</td>
+                                <td>RM 499.00</td>
+                                <td>RM 998.00</td>
+                            </tr>
+                            <tr>
+                                <td>Champion Fleece Hoodie | Men | S</td>
+                                <td>1</td>
+                                <td>RM 250.00</td>
+                                <td>RM 250.00</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td colspan = "4">Total: <span id = "bold">RM 2147.00</span></td>
+                            </tr>
+                        </tfoot>
+                        
+                    </table>
+                    <div id="checkout">
+                        <a href="#" id="checkout-btn">Checkout</a>
                     </div>
-                </div>
+                </div>                    
+
             </div>
-        
-        <div class = "container">
-            <div class = "checkout-price">
-                <h4>Total price: 1079.00</h4>
-            </div>
-        </div>     
+        </section>
             
 
     </main>

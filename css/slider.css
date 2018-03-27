@@ -43,11 +43,6 @@
     left: -800px;
 }
        
-#slider-image-3:target ~ .image-holder
-{
-    left: -1600px;
-}
-       
 
 .button-holder
 {
