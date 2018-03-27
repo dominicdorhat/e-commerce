@@ -6,11 +6,12 @@
         <meta name = "description" content = "E-commerce website">
         <meta name = "keywords" content = "e-commerce, online shopping">
         <meta name = "author" content = "Dominic Dorhat | Choo Wei Ken | Choong Jiachenn | Hariz Tay | Lim Kai Wey">
-        <title>Insert Name | Home Page</title>
+        <title>002 Station | Home Page</title>
         <link rel = "stylesheet" href = "./css/style.css">
         <link rel="stylesheet" href="./css/slider.css">
         <link rel="stylesheet" href="./css/home.css">
         <link rel ="stylesheet" href="./css/card.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Karla|Roboto|Roboto+Mono" rel="stylesheet">
     </head>
 
     <body>
@@ -33,7 +34,7 @@
 
             <div class = "container">
                 <div class="head-bot">                
-                    <h1><a href ="">INSERT NAME</a></h1>                    
+                    <h1 id = "logo-font"><a href ="">002 Station</a></h1>                    
                         <form class = "search">             
                             <div class = "search-box">
                                 <input id = "search-bar" type = "search" placeholder=" ...">
@@ -81,7 +82,7 @@
             
             <div class = "container">
                 <div id = "caption">
-                    <h3>"Spring Collection" - 2018</h3>
+                    <h3 id = "cursive">"Spring Collection" - 2018</h3>
                     <a href="product-page.html" class = "btn1">View Now</a>
                 </div>             
                 <!-- <h1>hentai</h1>    -->
@@ -90,7 +91,8 @@
 
             <section class = "boxes">
                 <div class = "container">
-                    <h1>Popular Brands</h1>
+                    <h1>POPULAR BRANDS</h1>
+                    <hr class="line-medium">
                     <div id = "logo-list">
                         <img src = "./img/adidas.png">
                         <img src = "./img/nike-swoosh.png">
@@ -106,56 +108,138 @@
 
             <section class = "boxes">
                 <div class = "container">
-                    <h1>Sale</h1>
-
+                <h1>SALE</h1>
+                <hr class="line-medium">
                     <div id = "sale-list">
-                    <div class = "card-container">
-                        <div class = "card-img">
-                            <img src = "./img/nb_smt.jpeg"/>
-                        </div>
-                        <div class = "details-container">
-                            <h4 class = "card-details">New Balance SMT</h4>
-                            <p class = "card-price">RM400</p>
+                        <div class = "card-container-h">
+                            <div class = "card-img">
+                                <img src = "./img/nb_smt.jpeg"/>
+                            </div>
+                            <div class = "details-container">
+                                <h4 class = "card-details">New Balance SMT | Men</h4>
+                                    <div class = "price">
+                                        <div class = "disc-price">RM400.00 MYR</div>
+                                        <div class = "ori-price">RM469.00 MYR</div>
+                                    </div>
 
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="card-container">
-                        <div class="card-img">
-                            <img src="./img/adidas_ap.jpg" />
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/adidas_ap.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">Adidas Alphabounce | Men</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM329.00 MYR</div>
+                                    <div class="ori-price">RM450.00 MYR</div>
+                                </div>                                        
+                            </div>
                         </div>
-                        <div class="details-container">
-                                        
-                        </div>
-                    </div>
 
-                    <div class="card-container">
-                        <div class="card-img">
-                            <img src="./img/nike_airmax.jpg" />
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/nike_airmax.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">Nike Air Max 270 | Men</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM400.00 MYR</div>
+                                    <div class="ori-price">RM469.00 MYR</div>
+                                </div>                    
+                            </div>
                         </div>
-                        <div class="details-container">
                     
-                        </div>
-                    </div>
-                    
-                    <div class="card-container">
-                        <div class="card-img">
-                            <img src="./img/puma_suede.jpg" />
-                        </div>
-                        <div class="details-container">
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/puma_suede.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">Puma Suede | Men</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM199.00 MYR</div>
+                                    <div class="ori-price">RM250.00 MYR</div>
+                                </div>
                         
+                            </div>
                         </div>
-                    </div>
+
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/adidas_superstar.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">Adidas(O) Superstar | Women</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM350.00 MYR</div>
+                                    <div class="ori-price">RM390.00 MYR</div>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/adidas_stan_smith.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">Adidas(O) StanSmith | Women</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM369.00 MYR</div>
+                                    <div class="ori-price">RM500.00 MYR</div>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/vans_os.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">Vans Old Skool | Women</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM189.00 MYR</div>
+                                    <div class="ori-price">RM220.00 MYR</div>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <div class="card-container-h">
+                            <div class="card-img">
+                                <img src="./img/nb_520.jpg" />
+                            </div>
+                            <div class="details-container">
+                                <h4 class="card-details">New Balance 520 | Women</h4>
+                                <div class="price">
+                                    <div class="disc-price">RM199.00 MYR</div>
+                                    <div class="ori-price">RM329.00 MYR</div>
+                                </div>
+                        
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             
-            <section class = "boxes">
-                <div class = "conttainer">
-                    <img src = "./img/nike_sportwear.jpg" id = "btm-ad">
+            <section class = "boxes">                                
+                <h1>NIKE ACG</h1>
+                <hr class="line-medium">
+                <img src = "./img/nike_sportwear.jpg" id = "btm-ad">
+                <hr class = "line-medium">
+                <div id = "acg-desc">
+                    <p>Nike ACG (All Conditions Gear) is a subsidiary line of Nike that produces innovative athletic apparel and sports gear for
+                    all climates.</p>
+                    <p>#nike #acg</p>
                 </div>
+                <hr class="line-short">
 
+                
             </section>
+
+
 
 
         </main>
