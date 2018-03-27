@@ -188,6 +188,30 @@ header ul {
 
 }
 
+/* lines */
+
+.line-long {
+    border-color: #F2F2F2;
+    
+    border-width: 1px;
+    margin: 0;    
+    width: 100vw;
+
+}
+
+.line-medium {
+    border-color: rgb(190, 187, 187);
+    width: 8%;
+    border-radius: 50%;
+}
+
+.line-short {
+    border-color: rgb(190, 187, 187);
+    width: 1%;
+    border-radius: 50%;
+
+}
+
 
 
 /* Footer */

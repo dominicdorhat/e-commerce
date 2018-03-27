@@ -107,20 +107,6 @@ a.btn1:hover {
     display: inline-block;
 }
 
-/* lines */
-
-.line-medium {
-    border-color: rgb(190, 187, 187);
-    width: 8%;
-    border-radius: 50%;
-}
-
-.line-short {
-    border-color: rgb(190, 187, 187);
-    width: 1%;
-    border-radius: 50%;
-
-}
 
 
 #acg-desc {
