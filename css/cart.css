@@ -4,7 +4,6 @@
 
 .cart h3 {
     text-align: center;
-    /* margin-bottom: 0; */
 }
 
 
@@ -12,8 +11,8 @@
     line-height: 1.6;
     margin: 0;
 }
-/* table */
 
+/* table */
 table {
     margin: auto;
     border-style: none;
